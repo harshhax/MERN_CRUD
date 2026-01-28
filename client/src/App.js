@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import axios from 'axios';
 
-const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API = process.env.REACT_APP_API_URL || "http://localhost:4000";
 
 function App() {
   // state to store the value from database
